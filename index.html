@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Awesome Site</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="header-wrapper">
+                <input type="checkbox" name="navButton" id="navButton">
+                <label class="nav-button-label" for="navButton">
+                </label>
+                <nav>
+                    <ul class="nav-main">
+                        <li class="nav-links"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-links"><a href="#section-our-requirement" class="nav-link">Our requirement</a></li>
+                        <li class="nav-links"><a href="#section-help" class="nav-link">Help</a></li>
+                        <li class="nav-links"><a href="#section-we-offer" class="nav-link">We Offer</a></li>
+                        <li class="nav-links" ><a href="#section-contact" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="subheader-wrapper">
+                    <div class="form-wrapper">
+                        <h2>Sent Request</h2>
+                        <form action="" class="form-request">
+                            <input type="text" placeholder="Input your name" name="userName" id="userName" required>
+                            <label for="userEmail">Input Email</label>
+                            <input type="email" name="userEmail" id="userEmail" placeholder="example_email@gmail.com" required>
+                            <button type="submit" class="btn-sumbit">Sent</button>
+                        </form>
+                    </div>
+                    <div class="logo-wrapper">
+                        <img src="./img/image.png" alt="Pecode Logo">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="bubbles-left bubbles"></div>
+            <section id="section-our-requirement">
+                <h2>Our Requirement</h2>
+                
+                <ul class="requirement-wrapper">
+                    <li>
+                        <img src="./img/requirments/1.png" alt="Frontend requirement">
+                        <p class="requirement-description">
+                            Front end - HTML5 and CSS3 are
+                            main technology of the UI code 
+                            (CSS3 can replace JS in many cases).
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/2.png" alt="Pixel-Perfect requirement">
+                        <p class="requirement-description">
+                            Pixel-Perfect level of UI - must be accurate on pixel level to PSD design.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/3.png" alt="Copyright requirement">
+                        <p class="requirement-description">
+                            Cannot be any copyright mark, link, name, signature, email, images in any of the code files, files names, project images and any other project asset.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/4.png" alt="Plugin requirement">
+                        <p class="requirement-description">
+                            The developer cannot use any modules and plugins which are not free to use & with free license of use.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/5.png" alt="Resolution requirement">
+                        <p class="requirement-description">
+                            Resolutions ready - link - need to include all desktops, including large screens and resolutions.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/6.png" alt="Name requirement">
+                        <p class="requirement-description">
+                            Code - classes, IDís and scripts names - required to be named properly - for future editing.
+
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/7.png" alt="Sliders requirement">
+                        <p class="requirement-description">
+                            Sliders with layers & float text required to fit for any responsive layout.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/requirments/8.png" alt="Unity requirement">
+                        <p class="requirement-description">
+                            1 element for all layouts - Header, Footer, Body, Menu, fields & forms - cannot have duplicate elements for desktop and mobile (you required to do 1 elements which will fit to all layouts properly).
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="section-help">
+                <h3>Help</h3>
+                <div class="section-help-content">
+                    <img src="./img/2.png" alt="help">
+                    <ol class="help-tips">
+                        <li>NAME FONTS: 
+                            Cosmic Sans MS
+                            TEXT COLOR #272f2f
+                            COLOR BUTTONS (GRADIENT) from #fb6a4e to #ff606a
+                        </li>
+                        <li>Clean, robust, dynamic & organized 
+                            code are essentials!   
+                        </li>
+                        <li>
+                            File names need to be clear and logic. 
+                            Back-end files and folders organization - Images, CSS, JS, Fonts, and any other project asset - required to be in dedicated folders.
+                        </li>
+                        <li>
+                            Use hover effects, animations and fields validations (e.g. emails, ID, names, phones, etc..) where possible, keep in mind that sometimes the designers forget to create them.
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <section id="section-we-offer">
+                <h2>We Offer</h2>
+
+                <ul class="offer-wrapper">
+                    <li class="animated">
+                        <img class="img-active" src="./img/offers/1.png" alt="Carrer Growth">
+                        <img class="img-hover" src="./img/offers/hover1.png" alt="Carrer Growth">
+                        <p class="offer-description">
+                            Career growth
+                        </p>
+                    </li>
+                    <li class="animated">
+                        <img class="img-active" src="./img/offers/2.png" alt="Flexible working schedule">
+                        <img class="img-hover" src="./img/offers/hover2.png" alt="Flexible working schedule">
+                        <p class="requirement-description">
+                            Flexible working schedule
+                        </p>
+                    </li>
+                    <li class="animated">
+                        <img class="img-active" src="./img/offers/3.png" alt="Comfortable workplace">
+                        <img class="img-hover" src="./img/offers/hover3.png" alt="Comfortable workplace">
+                        <p class="requirement-description">
+                            Comfortable workplace
+                        </p>
+                    </li>
+                    <li class="animated">
+                        <img class="img-active" src="./img/offers/4.png" alt="Competitive salary">
+                        <img class="img-hover" src="./img/offers/hover4.png" alt="Competitive salary">
+                        <p class="requirement-description">
+                            Competitive salary according to the qualifications
+                        </p>
+                    </li>
+                    <li class="animated">
+                        <img class="img-active" src="./img/offers/5.png" alt="Corporate leisure activities">
+                        <img class="img-hover" src="./img/offers/hover5.png" alt="Corporate leisure activities">
+                        <p class="requirement-description">
+                            Corporate leisure activities
+                        </p>
+                    </li>
+                    <li class="animated">
+                        <img class="img-active" src="./img/offers/6.png" alt="English lessons">
+                        <img class="img-hover" src="./img/offers/hover6.png" alt="English lessons">
+                        <p class="requirement-description">
+                            English lessons 
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="bubbles-right bubbles"></div>
+        </main>
+            
+        <footer id="section-contact">
+            <h2>Contacts</h2>
+            <div class="subfooter-wrapper">
+                <div class="form-wrapper">
+                    <h3>Sent Request</h2>
+                    <form action="" class="form-request">
+                        <input type="text" placeholder="Input your name" name="userNameBottom" id="userNameBottom" required>
+                        <label for="userEmailBottom">Input Email</label>
+                        <input type="email" name="userEmailBottom" id="userEmailBottom" placeholder="example_email@gmail.com" required>
+                        <button type="submit" class="btn-sumbit">Sent</button>
+                    </form>
+                </div>
+                <div class="get-in-touch-wrapper">
+                    <h3>Get in Touch</h3>
+                    <ul>
+                        <li>Ukrain, Lviv</li>
+                        <li>Telephone +380509214381</li>
+                        <li>E-mail: pecodesoftware@gmail.com</li>
+                    </ul>
+                    <div class="social-block">
+                        <ul>
+                            <li class="animated">
+                                <a href="https://www.linkedin.com/">
+                                    <img src="./img/sotial_network/linkedin.png" alt="linkedin logo" class="img-active">
+                                    <img src="./img/sotial_network/linkedin_active.png" alt="linkedin logo active" class="img-hover">
+                                </a>
+                            </li>
+                            <li class="animated">
+                                <a href="https://twitter.com">
+                                    <img src="./img/sotial_network/twitter.png" alt="twitter logo" class="img-active">
+                                    <img src="./img/sotial_network/twiter_active.png" alt="twitter logo active" class="img-hover">
+                                </a>
+                            </li>
+                            <li class="animated">
+                                <a href="https://www.facebook.com/">
+                                    <img src="./img/sotial_network/fb.png" alt="facebook logo" class="img-active">
+                                    <img src="./img/sotial_network/fb_active.png" alt="facebook logo active" class="img-hover">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="map"></div>
+
+            <h2 class="author">Created by Serhii Medvid</h2>
+        </footer>
+        
+
+        <script>
+            let map;
+            function initMap() {
+                map = new google.maps.Map(
+                    document.getElementById('map'),
+                    {center: new google.maps.LatLng(49.841404, 24.031624),
+                     zoom: 16,
+                     disableDefaultUI: true});
+                    let iconBase = './img/pin.png';
+                    let marker = new google.maps.Marker({
+                        icon: iconBase,
+                        position: new google.maps.LatLng(49.841404, 24.031624),
+                        map: map
+                    });
+            };
+
+            document.querySelector(".nav-main").addEventListener("click", function(e){
+            if(e.target.className == "nav-link") {
+                document.querySelector("#navButton").checked = false;
+            }
+        });
+    
+                
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBONDY3AV-6XRauvGCN4MWoD9EYM_nF9-0&callback=initMap">
+        </script>
+    </div>
+</body>
+</html>
